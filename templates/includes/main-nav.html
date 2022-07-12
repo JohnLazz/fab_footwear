@@ -18,11 +18,11 @@
                 Categories
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="" class="dropdown-item">Boots</a>
-                <a href="" class="dropdown-item">Flip Flops</a>
-                <a href="" class="dropdown-item">Loafers</a>
-                <a href="" class="dropdown-item">Sandals</a>
-                <a href="" class="dropdown-item">Trainers</a>
+                <a href="{% url 'products' %}?category=boots" class="dropdown-item">Boots</a>
+                <a href="{% url 'products' %}?category=flip_flops" class="dropdown-item">Flip Flops</a>
+                <a href="{% url 'products' %}?category=loafers" class="dropdown-item">Loafers</a>
+                <a href="{% url 'products' %}?category=sandals" class="dropdown-item">Sandals</a>
+                <a href="{% url 'products' %}?category=trainers" class="dropdown-item">Trainers</a>
             </div>
         </li>
     </ul>
